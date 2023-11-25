@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(211, 168, 250);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-top: 80px;
+    padding-left: 250px;
+}
+
+.container{
+    width: 80%;
+    height: 80%;
+    background-color: black; 
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+}
+
+.logo-section{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.logo-section img{
+    width: 30px;
+    height: 30px;
+}
+
+.logo-section h6{
+    font-weight: 800;
+}
+
+.image-section{
+    width: 100%;
+    height: 100%;
+    background-image: url(./bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.image-section h1{
+    padding-top: 100px;
+    font-size: 50px;
+    color: rgb(53, 53, 90);
+}
+
+.image-section p{
+    margin-top: 20px;
+    color: rgba(50, 48, 48, 0.81);
+}
+
+.image-section button{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    background-color: rgb(167, 82, 247);
+    color: white;
+    font-weight: 600;
+}
+
+.logo-section{
+    width: 100%;
+    height: 50px;
+}
+
+.logo-section hr{
+    width: 2px;
+    height: 15px;
+    background-color: rgba(107, 107, 107, 0.81);
+    color: rgba(107, 107, 107, 0.81);
+    margin-left: 20px;
+}
+
+.logo-section span ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.logo-section span ul li a{
+    text-decoration: none;
+    color: rgba(107, 107, 107, 0.81);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* .button-section{
+    width: 100%;
+    height: 50px;
+} */
+
+.button-section button{
+    width: 110px;
+    height: 30px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 11px;
+}
